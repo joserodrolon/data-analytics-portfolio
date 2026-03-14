@@ -14,11 +14,9 @@ def divide(a, b):
         return "Cannot divide by zero"
     return a / b
 
-
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-
-operation = input("Choose operation (+, -, *, /): ")
+num1 = 10
+num2 = 5
+operation = "+"
 
 if operation == "+":
     print(add(num1, num2))
